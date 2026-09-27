@@ -1,0 +1,25 @@
+TRAFFICAI - WINDOWS SETUP
+=========================
+
+1. Extract this ZIP to your Desktop.
+2. Open the extracted TrafficAI_Final folder in VS Code.
+3. Open a terminal in that folder.
+4. Create the virtual environment:
+   py -m venv venv
+5. Activate it:
+   venv\Scripts\activate
+6. Install the packages:
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+7. Start the website:
+   python app.py
+8. Open Chrome:
+   http://127.0.0.1:5000
+
+If you already have a working venv, select:
+   venv\Scripts\python.exe
+
+The dashboard does NOT require OpenCV at startup. OpenCV is included for the optional
+computer-vision/video-processing module and can be tested independently.
+
+To stop the server: Ctrl+C in the terminal.

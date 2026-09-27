@@ -1,0 +1,6 @@
+time,location,vehicles,average_speed,occupancy,congestion
+09:00,Mumbai,720,42,33,LOW
+09:15,Mumbai,980,34,45,MODERATE
+09:30,Mumbai,1284,24,58,MODERATE
+09:45,Mumbai,1510,20,69,MODERATE
+10:00,Mumbai,1740,16,79,HEAVY
